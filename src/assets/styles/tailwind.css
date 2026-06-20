@@ -7,24 +7,21 @@
 @custom-variant intersect (&:not([no-intersect]));
 
 @theme {
-  --color-primary: #e63939;           /* Fő piros */
-  --color-secondary: #c1121f;         /* Sötétebb piros hoverhez */
+  --color-primary: #e63939;
+  --color-secondary: #c1121f;
   --color-accent: #e63939;
-  
-  --color-default: #f8f9fa;           /* Világos szöveg */
-  --color-muted: #adb5bd;             /* Halványabb szöveg */
 
-  --aw-color-bg-page: #0f0f0f;        /* Fő sötét háttér */
-  --aw-color-bg-page-dark: #0a0a0a;   /* Még sötétebb */
+  --color-text-default: #f1f1f1;
+  --color-text-muted: #a3a3a3;
+
+  --aw-color-bg-page: #0a0a0a;
+  --aw-color-bg-page-dark: #050505;
+  --aw-color-text-page: #f1f1f1;
+  --aw-color-text-default: #f1f1f1;
+  --aw-color-text-muted: #a3a3a3;
 
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-heading: 'Inter', system-ui, sans-serif;
-  
-  --animate-fade: fadeInUp 1s both;
-  @keyframes fadeInUp {
-    0% { opacity: 0; transform: translateY(2rem); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
 }
 
 @utility bg-page {
