@@ -112,3 +112,48 @@
 .dd *:first-child {
   margin-top: 0;
 }
+/* ====================== Q-SERVICE PIROS SÖTÉT TÉMA ====================== */
+
+/* Alap háttér és szövegek */
+body, html, .bg-page, .dark {
+  background-color: #0a0a0a !important;
+  color: #f1f1f1 !important;
+}
+
+/* Fejléc */
+#header {
+  background-color: #0a0a0a !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+/* Hero és fő tartalom */
+main, section {
+  background-color: #0a0a0a !important;
+}
+
+/* Gombok - piros */
+.btn-primary, .bg-primary {
+  background-color: #e63939 !important;
+  border-color: #e63939 !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #c1121f !important;
+  border-color: #c1121f !important;
+}
+
+/* Szövegek */
+h1, h2, h3, h4, .text-default, .prose h1, .prose h2 {
+  color: #ffffff !important;
+}
+
+.text-muted, p, .prose p {
+  color: #cccccc !important;
+}
+
+/* Világos mód kikapcsolása (mert most nagyon rossz) */
+.light, .bg-light {
+  background-color: #0a0a0a !important;
+  color: #f1f1f1 !important;
+}
