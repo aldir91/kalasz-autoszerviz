@@ -139,3 +139,26 @@ p, li, .text-muted {
 #header.scroll, #header {
   background-color: #111111 !important;
 }
+
+/* ====================== FOOTER FIX ====================== */
+footer {
+  background-color: #111111 !important;
+  border-color: #333333 !important;
+  color: #eeeeee !important;
+}
+
+footer * {
+  color: #eeeeee !important;
+}
+
+footer a {
+  color: #cccccc !important;
+}
+
+footer a:hover {
+  color: #ffffff !important;
+}
+
+.dark footer, footer.dark {
+  background-color: #111111 !important;
+}
