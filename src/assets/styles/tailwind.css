@@ -181,3 +181,23 @@ footer a:hover {
 nav a:hover, .dropdown:hover > a {
   color: #e63939 !important;
 }
+
+/* ====================== ERŐS FOOTER FIX ====================== */
+footer, 
+footer div, 
+footer p, 
+footer a,
+footer .dark\:text-slate-300,
+footer .text-muted {
+  background-color: #111111 !important;
+  color: #eeeeee !important;
+  border-color: #333 !important;
+}
+
+footer {
+  border-top-color: #333 !important;
+}
+
+footer a:hover {
+  color: #e63939 !important;
+}
