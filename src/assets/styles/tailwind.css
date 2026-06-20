@@ -112,35 +112,3 @@
 .dd *:first-child {
   margin-top: 0;
 }
-/* Q-Service piros sötét téma - egyszerűsített */
-body {
-  background-color: #111111 !important;
-  color: #eeeeee !important;
-}
-
-main, section, .bg-page, .dark {
-  background-color: #111111 !important;
-}
-
-h1, h2, h3, h4, .text-2xl, .text-3xl, .text-4xl {
-  color: #ffffff !important;
-}
-
-p, .text-muted, .prose {
-  color: #cccccc !important;
-}
-
-.btn-primary {
-  background-color: #e63939 !important;
-  color: white !important;
-  border-color: #e63939 !important;
-}
-
-.btn-primary:hover {
-  background-color: #c1121f !important;
-}
-
-/* Header */
-#header {
-  background-color: #1a1a1a !important;
-}
