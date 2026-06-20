@@ -10,26 +10,10 @@
   --color-primary: #e63939;
   --color-secondary: #c1121f;
   --color-accent: #e63939;
-
-  --color-text-default: #f8f9fa;
-  --color-text-muted: #adb5bd;
-
-  /* AstroWind specifikus változók */
-  --aw-color-primary: #e63939;
-  --aw-color-secondary: #c1121f;
-  --aw-color-accent: #e63939;
   
-  --aw-color-bg-page: #0a0a0a;
-  --aw-color-bg-page-dark: #050505;
-  --aw-color-text-page: #f8f9fa;
-  --aw-color-text-default: #f8f9fa;
-  --aw-color-text-muted: #adb5bd;
-  --aw-color-text-heading: #ffffff;
-
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-heading: 'Inter', system-ui, sans-serif;
 }
-
 @utility bg-page {
   background-color: var(--aw-color-bg-page);
 }
@@ -111,4 +95,31 @@
 
 .dd *:first-child {
   margin-top: 0;
+}
+/* Q-Service piros téma */
+body {
+  background-color: #111111;
+  color: #eeeeee;
+}
+
+main, section {
+  background-color: #111111;
+}
+
+h1, h2, h3, h4 {
+  color: #ffffff;
+}
+
+p, li, .text-muted {
+  color: #cccccc;
+}
+
+.btn-primary {
+  background-color: #e63939 !important;
+  border-color: #e63939 !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #c1121f !important;
 }
