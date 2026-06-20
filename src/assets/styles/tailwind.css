@@ -201,3 +201,37 @@ footer {
 footer a:hover {
   color: #e63939 !important;
 }
+
+/* ====================== Q-SERVICE VILÁGOS TÉMA (ALAP) ====================== */
+
+/* Alapértelmezett világos mód */
+:root {
+  --aw-color-bg-page: #ffffff;
+  --aw-color-text-page: #1f2937;
+  --aw-color-text-default: #1f2937;
+  --aw-color-text-muted: #4b5563;
+}
+
+/* Sötét mód csak ha explicit bekapcsolják */
+.dark {
+  --aw-color-bg-page: #111111;
+  --aw-color-text-page: #f1f1f1;
+  --aw-color-text-default: #f1f1f1;
+  --aw-color-text-muted: #9ca3af;
+}
+
+/* Piros kiemelések */
+.btn-primary, .bg-primary {
+  background-color: #e63939 !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #c1121f !important;
+}
+
+/* Általános világos háttér */
+body, main, section {
+  background-color: #ffffff;
+  color: #1f2937;
+}
