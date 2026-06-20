@@ -123,3 +123,19 @@ p, li, .text-muted {
 .btn-primary:hover {
   background-color: #c1121f !important;
 }
+
+/* ====================== FIX: HEADER ÉS FOOTER ====================== */
+#header, footer {
+  background-color: #111111 !important;
+  border-color: #333 !important;
+}
+
+#header.scroll > div:first-child {
+  background-color: #111111 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Görgetés közben se legyen kék */
+#header.scroll, #header {
+  background-color: #111111 !important;
+}
