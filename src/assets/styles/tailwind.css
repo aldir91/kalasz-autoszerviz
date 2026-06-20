@@ -7,29 +7,23 @@
 @custom-variant intersect (&:not([no-intersect]));
 
 @theme {
-  --color-primary: var(--aw-color-primary);
-  --color-secondary: var(--aw-color-secondary);
-  --color-accent: var(--aw-color-accent);
-  --color-default: var(--aw-color-text-default);
-  --color-muted: var(--aw-color-text-muted);
+  --color-primary: #e63939;           /* Fő piros */
+  --color-secondary: #c1121f;         /* Sötétebb piros hoverhez */
+  --color-accent: #e63939;
+  
+  --color-default: #f8f9fa;           /* Világos szöveg */
+  --color-muted: #adb5bd;             /* Halványabb szöveg */
 
-  --font-sans:
-    'var(--aw-font-sans, ui-sans-serif)', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
-  --font-serif: 'var(--aw-font-serif, ui-serif)', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
-  --font-heading: 'var(--aw-font-heading, ui-sans-serif)', ui-sans-serif, system-ui, sans-serif;
+  --aw-color-bg-page: #0f0f0f;        /* Fő sötét háttér */
+  --aw-color-bg-page-dark: #0a0a0a;   /* Még sötétebb */
 
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Inter', system-ui, sans-serif;
+  
   --animate-fade: fadeInUp 1s both;
-
   @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(2rem);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    0% { opacity: 0; transform: translateY(2rem); }
+    100% { opacity: 1; transform: translateY(0); }
   }
 }
 
