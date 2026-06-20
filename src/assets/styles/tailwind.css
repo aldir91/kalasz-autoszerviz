@@ -162,3 +162,22 @@ footer a:hover {
 .dark footer, footer.dark {
   background-color: #111111 !important;
 }
+/* ====================== DROPDOWN MENÜ FIX ====================== */
+.dropdown-menu {
+  background-color: #1a1a1a !important;
+  border: 1px solid #444 !important;
+}
+
+.dropdown-menu a {
+  color: #eeeeee !important;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e63939 !important;
+  color: white !important;
+}
+
+/* Hover állapot a fő menüben */
+nav a:hover, .dropdown:hover > a {
+  color: #e63939 !important;
+}
