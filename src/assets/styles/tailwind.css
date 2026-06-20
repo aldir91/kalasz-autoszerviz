@@ -12,7 +12,7 @@
 
 /* ====================== Q-SERVICE ALAP TÉMA ====================== */
 
-/* Világos mód - Alapértelmezett */
+/* Világos mód - ALAPÉRTELMEZETT */
 :root {
   --aw-color-bg-page: #ffffff;
   --aw-color-text-page: #1f2937;
@@ -20,7 +20,7 @@
   --aw-color-text-muted: #4b5563;
 }
 
-/* Sötét mód */
+/* Sötét mód csak ha bekapcsolják */
 .dark {
   --aw-color-bg-page: #111111;
   --aw-color-text-page: #f1f1f1;
