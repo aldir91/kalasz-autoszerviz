@@ -11,14 +11,20 @@
   --color-secondary: #c1121f;
   --color-accent: #e63939;
 
-  --color-text-default: #f1f1f1;
-  --color-text-muted: #a3a3a3;
+  --color-text-default: #f8f9fa;
+  --color-text-muted: #adb5bd;
 
+  /* AstroWind specifikus változók */
+  --aw-color-primary: #e63939;
+  --aw-color-secondary: #c1121f;
+  --aw-color-accent: #e63939;
+  
   --aw-color-bg-page: #0a0a0a;
   --aw-color-bg-page-dark: #050505;
-  --aw-color-text-page: #f1f1f1;
-  --aw-color-text-default: #f1f1f1;
-  --aw-color-text-muted: #a3a3a3;
+  --aw-color-text-page: #f8f9fa;
+  --aw-color-text-default: #f8f9fa;
+  --aw-color-text-muted: #adb5bd;
+  --aw-color-text-heading: #ffffff;
 
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-heading: 'Inter', system-ui, sans-serif;
