@@ -112,48 +112,35 @@
 .dd *:first-child {
   margin-top: 0;
 }
-/* ====================== Q-SERVICE PIROS SÖTÉT TÉMA ====================== */
-
-/* Alap háttér és szövegek */
-body, html, .bg-page, .dark {
-  background-color: #0a0a0a !important;
-  color: #f1f1f1 !important;
+/* Q-Service piros sötét téma - egyszerűsített */
+body {
+  background-color: #111111 !important;
+  color: #eeeeee !important;
 }
 
-/* Fejléc */
-#header {
-  background-color: #0a0a0a !important;
-  border-bottom: 1px solid #333 !important;
+main, section, .bg-page, .dark {
+  background-color: #111111 !important;
 }
 
-/* Hero és fő tartalom */
-main, section {
-  background-color: #0a0a0a !important;
+h1, h2, h3, h4, .text-2xl, .text-3xl, .text-4xl {
+  color: #ffffff !important;
 }
 
-/* Gombok - piros */
-.btn-primary, .bg-primary {
+p, .text-muted, .prose {
+  color: #cccccc !important;
+}
+
+.btn-primary {
   background-color: #e63939 !important;
-  border-color: #e63939 !important;
   color: white !important;
+  border-color: #e63939 !important;
 }
 
 .btn-primary:hover {
   background-color: #c1121f !important;
-  border-color: #c1121f !important;
 }
 
-/* Szövegek */
-h1, h2, h3, h4, .text-default, .prose h1, .prose h2 {
-  color: #ffffff !important;
-}
-
-.text-muted, p, .prose p {
-  color: #cccccc !important;
-}
-
-/* Világos mód kikapcsolása (mert most nagyon rossz) */
-.light, .bg-light {
-  background-color: #0a0a0a !important;
-  color: #f1f1f1 !important;
+/* Header */
+#header {
+  background-color: #1a1a1a !important;
 }
